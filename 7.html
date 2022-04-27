@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Form</title>
+</head>
+<style>
+ h3{
+  background-color:red;
+ }
+ #FirstName,#LastName,#Address,#City,#State,#Zip{
+border:none;
+border-bottom: 3px solid black;
+width:15%;
+font-weight:bold;
+
+ }
+
+ #a,#b,#c,#d,#e,#f,#g,#h,#i,#j,#k,#l,p{
+  font-weight:bold
+ }
+ label{
+  font-size: 10px;
+ }
+ form{
+
+  background-color:white;
+  border:solid;
+  border-color: black;
+  margin:auto;
+
+ }
+ body{
+  border:solid 5px white;
+  border-width: 5px;
+  width:25%;
+  max-width:400px;
+  margin:auto;
+  background-color:black;
+  position: absolute;
+  top: 30%;
+  transform: translateX(140%);
+ }
+</style>
+<h3>Yes! I Want to Subscribe to Mag-O-Zine</h3>
+ <form>
+  <label for="FirstName" id ="a">First Name</label>
+  <input type="text" id="FirstName" > 
+  <label for="LastName" id ="b">Last Name</label>
+  <input type="text" id="LastName"> 
+  <label for="Address" id="c">Address</label>
+  <input type="text" id="Address">
+  <label for="City" id ="d">City</label>
+  <input type="text" id="City">
+  <label for="State" id ="e">State</label>
+  <input type="text" id="State">
+  <label for="Zip" id ="f">Zip</label>
+  <input type="text" id="Zip"><br>
+  <label for="checkbox" id="g">Subscribe for:</label>
+  <input type="checkbox" id="checkbox1">
+  <label for="checkbox" id ="h">1 year ($19.95)</label>
+  <input type="checkbox" id="checkbox2">
+  <label for="checkbox" id =i>2 years ($35.00)</label>
+  <p>Send me more information about:</p>
+  <input type="checkbox" id="checkbox3">
+  <label for="checkbox" id ="j">Computer-Zine</label><br>
+  <input type="checkbox" id="checkbox4">
+  <label for="checkbox" id="k">Fishing-Zine</label><br>
+  <input type="checkbox" id="checkbox5">
+  <label for="checkbox" id="l">Cat-O-Zine</label>
+ </form>
+</body>
+</html>
